@@ -16,7 +16,9 @@ To complete this challenge you will require the following:
 ## Tasks
 Use the technology that you see fit to develop a new community page that looks as close as possible to the design mock-up.
 
-Bonus points for adding Javascript enhancement (Feel free to use your imagination and show off your skills with whatever frameworks you are comfortable with. We use jQuery in our platform currently.)
+Attention to detail is important (*container sizes, positioning, and fonts*)
+
+Bonus points for adding Javascript enhancement (*Feel free to use your imagination and show off your skills with whatever frameworks you are comfortable with. We use jQuery in our platform currently.*)
 
 ## Submission
 When you complete this, compress your project directory and submit the archive to [careers@igloosoftware.com](mailto:careers@igloosoftware.com) with a subject line of **RE: Code Challenge WEB**. If the archive is too large to send via email, please store it in "the cloud," making sure that it is publicly available, and instructions to retrieve it have been provided.
