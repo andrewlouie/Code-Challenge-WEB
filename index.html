@@ -1,95 +1,162 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <title> web dev challenge </title>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    h1{
-      font-size:14px;
-      font-weight:normal;
-      margin:0 0 -1.45em;
-    }
-    h4{
-      font-size:24px;
-    }
-    li {
-        display: inline-block;
-        text-align: left;
-    }
-    a{
-      color:#000;
-    }
-    a:hover
-    {
-      color:
-    }
-    span {
-        display: inline-block;
-        width: 300px;
-        margin-top:20px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        margin-right:0;
-        overflow: hidden;
-    }
-    body {
-        font-family: 'Oswald', sans-serif;
-    }
-    #content{
-      width: 1100px;
-      margin: 0 auto;
-    }
-    .footer{
-      background:#000;
-      color:#FFFFFF;
-      text-align:center;
-    }
+<head>
+    <title>Web Dev Challenge</title>
+    <meta charset="utf-8">
+    <meta name="title" content="Web Dev Challenge">
+    <meta name="description" content="lorum ipsum">
+    <meta name="keywords" content="lorum,ipsum">
+    <meta name="author" content="Andrew Aaron">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
 
-    </style>
-  </head>
-  <body>
-      <div id="content">
-  <div id ="n-primary">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Dashboard</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Campaigns</a></li>
-    <li><a href="#">Files</a></li>
-    <li><a href="#">Departments</a></li>
-    <li><a href="#">People</a></li>
-  </div>
-  <div id="search">
-  </div>
+<body>
 
-  <div class="slider">
-    <span>
-        <h1>May 20,2015</h1>
-        <h4 style="margin: 35px 0 20px;"> Corporate Announcement</h4>
-        <img src="http://lorempixel.com/400/200/sports" />
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <span>
-        <p>May 20,2015</p>
-        <h2> Corporate Announcement</h2>
-        <img src="http://lorempixel.com/400/200/cats" />
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <span>
-        <p>May 20,2015</p>
-        <h2> Corporate Announcement</h2>
-        <img src="http://lorempixel.com/400/200/transport" > </img>
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <p> &nbsp; </p>
-    <br />
-  </div>
-</div>
-  <div class="footer">
-    <p> Copyright 2016 </p>
-  </div>
-  </body>
-<html>
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <nav class="mainnav navbar-collapse collapse" id="bs-navbar">
+
+                <ul class="nav nav-justified">
+                    <li><a href="#" class="active">Home</a>
+                    </li>
+                    <li><a href="#">Dashboard</a>
+                    </li>
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Campaigns</a>
+                    </li>
+                    <li><a href="#">Files</a>
+                    </li>
+                    <li><a href="#">Departments</a>
+                    </li>
+                    <li><a href="#">People</a>
+                    </li>
+                </ul>
+                <div class="searchcontainer">
+                    <div class="search">
+                        <span class="fa fa-search"></span>
+                        <input type="search" class="form-control" placeholder="Search everywhere" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Jssor Slider Begin -->
+    <div style="position: relative; width: 100%; overflow: hidden;">    
+        <div style="position: relative; left: 50%; width: 1352px; text-align: center; margin-left: -676px;">
+            <noscript>
+                <div class="overlay">
+                    <h1>Welcome to the Community</h1>
+                    <h2>Share, connect and collaborate</h2>
+                </div>
+                <img data-u="image" src="assets/slide1.jpg" alt="Slider image 1" />    
+            </noscript>
+
+            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 307px; overflow: hidden; visibility: hidden;display:none;">
+                <!-- Loading Screen -->
+                <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                    <div style="position:absolute;display:block;background:url('assets/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                </div>
+                <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height:307px; overflow: hidden;" id="jssorslides">
+                    <div data-p="225.00" style="display: none;">
+                        <div class="overlay">
+                            <h1>Welcome to the Community</h1>
+                            <h2>Share, connect and collaborate</h2>
+                        </div>
+                        <img data-u="image" src="assets/slide1.jpg" alt="Slider image 1" />
+                    </div>
+                    <div data-p="225.00" style="display: none;">
+                        <img data-u="image" src="assets/slide2.jpg" alt="Slider image 2" />
+                    </div>
+                    <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                        <img data-u="image" src="assets/slide3.jpg" alt="Slider image 3" />
+                    </div>
+                </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                    <!-- bullet navigator item prototype -->
+                    <div data-u="prototype" style="width:16px;height:16px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+    <h2 class="text-center">Stories From Us</h2>
+    <div class="container mainarticles">
+        <div class="row">
+            <div class="col-sm-4">
+                <section>
+                    <header>
+                        <p>May 20,2015</p>
+                        <h1>Corporate Announcement</h1>
+                    </header>
+                    <article>
+                        <img src="http://lorempixel.com/400/200/sports" alt="Sports" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis urna tristique, elementum massa eu, fringilla turpis. Duis et purus eget ligula faucibus efficitur. </p>
+                    </article>
+                    <footer> <a href="#">Read More</a>
+                    </footer>
+                </section>
+            </div>
+            <div class="col-sm-4">
+                <section>
+                    <header>
+                        <p>May 20,2015</p>
+                        <h1>Corporate Announcement</h1>
+                    </header>
+                    <article>
+                        <img src="http://lorempixel.com/400/200/cats" alt="Cats" />
+                        <p>Curabitur sit amet purus sagittis, semper metus sed, tincidunt ante. Ut mattis ex eget quam finibus ultricies. Nulla sed urna quis dolor volutpat egestas.</p>
+                    </article>
+                    <footer>
+                        <a href="#">Read More</a>
+                    </footer>
+                </section>
+            </div>
+            <div class="col-sm-4">
+                <section>
+                    <header>
+                        <p>May 20,2015</p>
+                        <h1>Corporate Announcement</h1>
+                    </header>
+                    <article>
+                        <img src="http://lorempixel.com/400/200/transport" alt="Transport" />
+                        <p>Pellentesque id ultrices lectus, et laoreet orci. Etiam blandit tempus arcu id accumsan. Praesent at lorem venenatis, dignissim sem non, tempus mi.</p>
+                    </article>
+                    <footer>
+                        <a href="#">Read More</a>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer class="mainfooter">
+        <div class="container">
+            <p>&copy;&nbsp;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                <noscript>2016</noscript>
+            </p>
+            <a href="http://www.igloosoftware.com"><img src="assets/igloo-chicklet-gr.png" alt="Igloo logo" />
+            </a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
